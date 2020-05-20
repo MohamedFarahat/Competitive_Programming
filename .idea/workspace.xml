@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7836d01e-8601-41fb-b60a-c6806e39b7f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/LevelOfVertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/CheckStatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/Facc2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/Face1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/competitiveProgramming/META-INF/competitiveProgramming.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/competitiveProgramming/graph/BFSDirectedGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/competitiveProgramming/graph/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/competitiveProgramming/graph/IsDiGraphContainsCylce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/competitiveProgramming/graph/IsUndirectedGraphContainsCycle.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +57,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -44,29 +72,37 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Competitive_Programming" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MPP/Java8/Lab7/lesson7/lesson7" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.BFSDirectedGraph">
-    <configuration name="BFSDirectedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.BFSDirectedGraph" />
+  <component name="RunManager" selected="Application.CheckStatic">
+    <configuration name="CheckStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.CheckStatic" />
       <module name="competitiveProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.*" />
+          <option name="PATTERN" value="practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Enum$Enumeration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="newenum.Enum$Enumeration" />
+      <module name="competitiveProgramming" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,25 +133,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LevelOfVertex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.LevelOfVertex" />
+      <module name="competitiveProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BFSDirectedGraph" />
+        <item itemvalue="Application.CheckStatic" />
+        <item itemvalue="Application.Enum$Enumeration" />
+        <item itemvalue="Application.LevelOfVertex" />
         <item itemvalue="Application.IsUndirectedGraphContainsCycle" />
         <item itemvalue="Application.IsDiGraphContainsCylce" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -128,42 +167,57 @@
       <option name="presentableId" value="Default" />
       <updated>1586652137605</updated>
       <workItem from="1586652144144" duration="4747000" />
-      <workItem from="1586695369660" duration="3714000" />
+      <workItem from="1586695369660" duration="6501000" />
+      <workItem from="1588286575589" duration="2940000" />
+      <workItem from="1589950832529" duration="3990000" />
+      <workItem from="1589985161252" duration="1119000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="72" key="#Project_Structure" timestamp="1586697450638">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="72" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1586697450638" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1586697537233">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1589955586989">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586697537233" />
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589955586989" />
     <state x="603" y="329" width="354" height="165" key="Github.CreateGistDialog" timestamp="1586697603529">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="603" y="329" width="354" height="165" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1586697603529" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1586702071809">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1589959549064">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586702071809" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1586702071809">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589959549064" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1589959549064">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586702071809" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1586702071809">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589959549064" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1589959549064">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586702071809" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1586702071809">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589959549064" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1589959549064">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586702071809" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589959549064" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1586655884842">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -180,6 +234,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586655884842" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1589950854443">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1589950854443" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1586695822886">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -211,6 +269,14 @@
           <url>file://$PROJECT_DIR$/src/graph/IsUndirectedGraphContainsCycle.java</url>
           <line>44</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/practice/CheckStatic.java</url>
+          <line>8</line>
+          <properties class="practice.CheckStatic" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
